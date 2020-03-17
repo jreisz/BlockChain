@@ -1,0 +1,55 @@
+{
+  "name": "ejercicio-_-node",
+  "version": "1.0.0",
+  "description": "Atix Labs challenge",
+  "main": "index.js",
+  "dependencies": {
+    "biguint-format": "^1.0.1",
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "mongoose": "^5.9.2",
+    "parse-function": "^5.6.5",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.7",
+    "@shelf/jest-mongodb": "^1.1.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^25.1.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest --config ./tests/config/jest.config.json --detectOpenHandles --runInBand",
+    "test:debug": "node  --inspect-brk node_modules/jest/bin/jest.js --runInBand --watch",
+    "dev": "nodemon index.js",
+    "nodemon": "^1.17.3"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jreisz/EJERCICIO-_-NODE.git"
+  },
+  "author": "Juan Manuel Reisz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jreisz/EJERCICIO-_-NODE/issues"
+  },
+  "homepage": "https://github.com/jreisz/EJERCICIO-_-NODE#readme"
+}
