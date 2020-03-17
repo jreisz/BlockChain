@@ -1,0 +1,4 @@
+  {
+    "preset": "@shelf/jest-mongodb",
+    "rootDir":"../" 
+  }
