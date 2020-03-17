@@ -108,23 +108,19 @@
 # Prerequisites:
 # -------------
 # Windows 64-bit (7+)
-# NPM
-# Node ~12.14.1 https://nodejs.org/
+# Node ~12.14.1 https://nodejs.org/ (includes NPM)
 # MongoDB https://www.mongodb.com/download-center/community
 
 # Steps:
 # -------------
-# 1. Download the code from Git repository
-# 2. Using Terminal, go to root folder and type npm install
+# 1. Download the code from GITHub repository. (Clone or Download Button)
+#   Note: Make sure you have NPM & Node installed at this point
+# 2. Using Terminal/VSCode, go to root folder and type npm install
 #  e.g., C:\Users\juanma\code\atix-labs\EJERCICIO-_-NODE\ 
-# 3. Type npm run dev. 
+# 3. Type npm install
+# 3. Type npm start
 #   You will see the following:
-# nodemon index.js
-# [nodemon] 2.0.2
-# [nodemon] to restart at any time, enter `rs`
-# [nodemon] watching dir(s): *.*
-# [nodemon] watching extensions: js,mjs,json
-# [nodemon] starting `node index.js`
+
 # Server running at http://localhost:3456/
 # Db Connected.
 
