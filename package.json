@@ -32,6 +32,7 @@
     "test": "jest --config ./tests/config/jest.config.json --detectOpenHandles --runInBand",
     "test:debug": "node  --inspect-brk node_modules/jest/bin/jest.js --runInBand --watch",
     "dev": "nodemon index.js",
+    "start": "node index.js",
     "nodemon": "^1.17.3"
   },
   "babel": {
