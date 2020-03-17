@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600,700);
+
+        @font-face {
+            font-family: "Comfortaa";
+            font-style: normal;
+            font-weight: normal;
+            src: url("/fonts/Comfortaa_Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "Brandon_bld";
+            src: url("/fonts/Brandon_bld.otf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "Brandon_reg";
+            src: url("/fonts/Brandon_reg.otf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "Brandon_light";
+            src: url("/fonts/Brandon_light.otf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "GTPressuraMono-Light";
+            src: url("/fonts/GTPressuraMono-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: "Linotte-semibold";
+            src: url("/fonts/Linotte-SemiBold.otf") format("truetype");
+        }
+
+        textarea::-webkit-input-placeholder {
+            font-family: 'myFont', GTPressuraMono-Light, sans-serif;
+        }
+
+        .section-title {
+            font-family: Brandon_reg, sans-serif;
+            text-transform: uppercase;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar-brand {
+            font-family: 'Raleway', sans-serif;
+            font-size: 16px;
+            font-weight: 600;
+            color: #777 !important;
+            text-transform: uppercase;
+        }
+
+        .btn-action {
+            border-radius: 0;
+            box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+            -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+            -moz-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.08);
+            color: #fff;
+            font-family: "Brandon_bld";
+        }
+
+        .btn-action:hover {
+            color: #fff;            
+        }
+        
