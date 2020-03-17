@@ -118,7 +118,7 @@
 # 2. Using Terminal/VSCode, go to root folder and type npm install
 #     e.g., C:\Users\juanma\code\atix-labs\EJERCICIO-_-NODE\ 
 # 3. Type npm install
-#     Make sure you have installed MongoDB at this point
+#     Make sure you have installed MongoDB at this point.
 # 3. Type npm start
 #     You will see the following:
 
