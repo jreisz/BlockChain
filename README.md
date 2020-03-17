@@ -114,12 +114,13 @@
 # Steps:
 # -------------
 # 1. Download the code from GITHub repository. (Clone or Download Button)
-#   Note: Make sure you have NPM & Node installed at this point
+#     Make sure you have installed NPM & Node at this point
 # 2. Using Terminal/VSCode, go to root folder and type npm install
-#  e.g., C:\Users\juanma\code\atix-labs\EJERCICIO-_-NODE\ 
+#     e.g., C:\Users\juanma\code\atix-labs\EJERCICIO-_-NODE\ 
 # 3. Type npm install
+#     Make sure you have installed MongoDB at this point
 # 3. Type npm start
-#   You will see the following:
+#     You will see the following:
 
 # Server running at http://localhost:3456/
 # Db Connected.
