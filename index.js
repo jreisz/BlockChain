@@ -11,7 +11,6 @@ mongoose
   .catch((err) => console.log(err));
 
 app.set("port", process.env.PORT || conf.port);
-app.set("hostname", process.env.hostname || conf.hostname);
 app.set("views", path.join(__dirname, "app/views"));
 app.set("view engine", "ejs");
 
@@ -21,9 +20,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/", router);
 
-app.listen(app.get("port"), conf.hostname, () => {
+app.listen(app.get("port"), () => {
   console.log(
-    `Server running at http://${app.get("hostname")}:${app.get("port")}/`
+    `Server listening on port: ${app.get("port")}`
   );
 });
 module.exports.app = app;
